@@ -2,7 +2,7 @@ import data from "../data/index.json";
 
 export default function Skills() {
   return (
-    <section className="skills__section" id="mySkills">
+    <section className="skills__section" id="Skills">
       <div className="portfolio__container">
         <p className="section__title">My Skills</p>
         <h2 className="skills__section__heading">My Expertise</h2>

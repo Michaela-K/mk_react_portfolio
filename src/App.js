@@ -11,7 +11,6 @@ function App() {
           <Navbar/> 
           <Routes>
             <Route path="/" element={<Home/>}></Route>
-            <Route path="/about" element={<About/>}></Route>
             <Route path="*" element={<div>404 Not Found</div>}></Route>
           </Routes>
       </BrowserRouter>

@@ -30,7 +30,7 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="MyPortfolio"
+                to="Portfolio"
                 className="text-md"
               >
                 Portfolio
@@ -43,11 +43,24 @@ function Footer() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="AboutMe"
+                to="About"
                 className="text-md"
               >
                 About Me
               </Link>
+            </li>
+            <li>
+            <Link
+              activeClass="navbar__active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Skills"
+              className="text-md"
+            >
+              Skills
+            </Link>
             </li>
             <li>
               <Link
@@ -60,19 +73,6 @@ function Footer() {
                 className="text-md"
               >
                 Contact
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar__active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="testimonial"
-                className="text-md"
-              >
-                Testimonials
               </Link>
             </li>
           </ul>

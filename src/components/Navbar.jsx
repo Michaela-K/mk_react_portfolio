@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
-import { Link as PageLink } from 'react-router-dom';
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -35,8 +34,8 @@ function Navbar() {
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <div className="navbar__img">
-        <img src="./assets/images/logo.png" alt="Logo" />
+      <div className="navbar__img"> Mk
+        {/* <img src="./assets/images/logo.png" alt="Logo" /> */}
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -49,18 +48,32 @@ function Navbar() {
       <div className={`navbar__items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
-            <PageLink
+            <Link
               onClick={closeMenu}
               activeClass="navbar__active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="/"
+              to="heroSection"
               className="navbar__content"
             >
               Home
-            </PageLink>
+            </Link>
+          </li>
+          <li>
+          <Link
+              onClick={closeMenu}
+              activeClass="navbar__active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="About"
+              className="navbar__content"
+            >
+              About
+            </Link>
           </li>
           <li>
             <Link
@@ -91,16 +104,6 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <PageLink
-              onClick={closeMenu}
-              activeClass="navbar__active-content"
-              to="/about"
-              className="navbar__content"
-            >
-              About Me
-            </PageLink>
-          </li>
-          {/* <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar__active-content"
@@ -108,26 +111,14 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              to="Contact"
               className="navbar__content"
             >
-              Testimonials
+              Contact
             </Link>
-          </li> */}
+          </li>
         </ul>
       </div>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar__active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Contact Me
-      </Link>
     </nav>
   );
 }
