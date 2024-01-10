@@ -20,7 +20,7 @@ function Hero() {
         <button className="btn btn-primary">Get In Touch</button>
       </div>
       <div className="hero__section__img">
-        <img src="./assets/images/hijabi.png" alt="Hero Image" />
+        {/* <img src="./assets/images/hijabi.png" alt="Hero Image" /> */}
       </div>
     </section>
   )
