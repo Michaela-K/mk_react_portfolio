@@ -1,0 +1,21 @@
+  /* Global CSS */
+
+  :root {
+    --primary: #297685;
+    --heading-color: #234850;
+    --bg-shade: #f5fcff;
+    --github: #59a5e3;
+    --github: #E89793;
+    --darkblue: #1c1e53;
+    --black: #21222f;
+    --white: #ffffff;
+  }
+  body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: "Roboto", sans-serif;
+    -moz-osx-font-smoothing: "Roboto", sans-serif;
+    font-style: normal;
+  }
+
+  
