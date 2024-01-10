@@ -1,7 +1,6 @@
 import React from 'react'
 import Hero from '../Hero'
 import Skills from '../Skills'
-import About from '../About'
 import MyPortfolio from '../Portfolio'
 import Contact from '../Contact'
 import Footer from '../Footer'

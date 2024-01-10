@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
+import { Link as PageLink } from 'react-router-dom';
 
 function Navbar() {
   const [navActive, setNavActive] = useState(false);
@@ -48,6 +49,20 @@ function Navbar() {
       <div className={`navbar__items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
+            <PageLink
+              onClick={closeMenu}
+              activeClass="navbar__active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="/"
+              className="navbar__content"
+            >
+              Home
+            </PageLink>
+          </li>
+          <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar__active-content"
@@ -55,10 +70,10 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              to="Skills"
               className="navbar__content"
             >
-              Home
+              Skills
             </Link>
           </li>
           <li>
@@ -76,18 +91,14 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <Link
+            <PageLink
               onClick={closeMenu}
               activeClass="navbar__active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="About"
+              to="/about"
               className="navbar__content"
             >
               About Me
-            </Link>
+            </PageLink>
           </li>
           {/* <li>
             <Link
