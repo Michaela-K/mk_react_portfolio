@@ -4,6 +4,7 @@ import Skills from '../Skills'
 import About from '../About'
 import MyPortfolio from '../Portfolio'
 import Contact from '../Contact'
+import Footer from '../Footer'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Skills/>
       <MyPortfolio/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
