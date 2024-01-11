@@ -14,7 +14,7 @@ function Home() {
       <Skills/>
       <MyPortfolio/>
       <Contact/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
