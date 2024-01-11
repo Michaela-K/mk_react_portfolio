@@ -299,7 +299,7 @@
 
 /* Skills Section Style */
 .skills__section {
-  background-color: lightpink;
+  background-color: lightcyan;
   display: flex;
   justify-content: start;
   padding: 70px 0px;
@@ -307,7 +307,7 @@
   width: 100%;
 }
 .skills__section__container {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   /* width: 85%; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -400,11 +400,14 @@
 
 /* My Portfolio Starts */
 .portfolio__section {
+  background-color: lightcyan;
   display: flex;
-  padding: 112px 85px;
+  padding: 112px 0px;
   flex-direction: column;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 80px;
+  width:100%;
 }
 .portfolio__container-box {
   display: flex;
@@ -420,8 +423,8 @@
 }
 .portfolio__section__container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 42.6px;
   width: 100%;
 }
@@ -639,7 +642,7 @@ select::-ms-expand {
 }
 
 @media only screen and (max-width: 1550px) {
-  .hero__section{
+  .hero__section, .portfolio__section{
     justify-content: center;
   }
   .hero__section__title {
@@ -668,7 +671,7 @@ select::-ms-expand {
     line-height: 70px;
   }
   .skills__section__container {
-    width: 70vw;
+    width: 75vw;
     display: flex;
     justify-content: center;
     grid-template-columns: repeat(2, 1fr);
@@ -687,6 +690,9 @@ select::-ms-expand {
   .skills__section__description {
     font-size: 17.333px;
     line-height: 27px;
+  }
+  .portfolio__section__container, .portfolio__container-box{
+    width: 75vw;
   }
 }
 

@@ -5,8 +5,7 @@ export default function Portfolio() {
     <section className="portfolio__section" id="Portfolio">
       <div className="portfolio__container-box">
         <div className="portfolio__container">
-          <p className="sub__title">Recent Projects</p>
-          <h2 className="section__heading">Portfolio</h2>
+          <p className="heading">Portfolio</p>
         </div>
       </div>
       <div className="portfolio__section__container">
