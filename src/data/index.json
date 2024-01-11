@@ -2,28 +2,28 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "./assets/icons/fe_icon.png",
       "title": "Front-End",
       "alt":"Front-End",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
+      "src": "./assets/icons/be_icon.png",
       "title": "Back-End",
       "alt":"Back-End",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "src": "./assets/icons/wp_icon.png",
       "title": "WordPress Development",
       "alt":"WordPress Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
+      "src": "./assets/icons/wf_icon.png",
       "title": "Webflow Development",
       "alt":"Webflow Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
