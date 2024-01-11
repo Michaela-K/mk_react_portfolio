@@ -103,20 +103,6 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          <li>
-            <Link
-              onClick={closeMenu}
-              activeClass="navbar__active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="Contact"
-              className="navbar__content"
-            >
-              Contact
-            </Link>
-          </li>
         </ul>
       </div>
     </nav>
