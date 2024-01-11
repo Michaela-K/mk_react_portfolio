@@ -754,11 +754,7 @@ select::-ms-expand {
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  /* .about__section {
-    gap: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
-  } */
+
   .testimonial__section__card {
     padding: 25px;
   }
@@ -773,7 +769,7 @@ select::-ms-expand {
     gap: 10px;
   }
   .contact__form__container {
-    width: 100%;
+    width: 75vw;
   }
   .container {
     display: flex;
