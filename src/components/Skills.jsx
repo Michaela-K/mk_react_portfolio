@@ -3,9 +3,9 @@ import data from "../data/index.json";
 export default function Skills() {
   return (
     <section className="skills__section" id="Skills">
-      <div className="portfolio__container">
-        <p className="section__title">Skills</p>
-      </div>
+      {/* <div className="portfolio__container"> */}
+      {/* <p className="heading">Skills</p> */}
+      {/* </div> */}
       <div className="skills__section__container">
         {data?.skills?.map((item, index) => (
           <div key={index} className="skills__section__card">

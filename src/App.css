@@ -299,34 +299,30 @@
 
 /* Skills Section Style */
 .skills__section {
+  background-color: lightpink;
   display: flex;
+  justify-content: start;
   padding: 70px 0px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 106.667px;
-}
-.skills__section__heading {
-  color: var(--heading-color);
-  font-size: 64px;
-  font-weight: 700;
-  line-height: 77px;
+  gap: 100px;
+  width: 100%;
 }
 .skills__section__container {
+  background-color: lightblue;
+  /* width: 85%; */
   display: grid;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 42.6px;
   grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  /* justify-content: center; */
+  /* align-items: flex-start; */
 }
 .skills__section__card {
   display: flex;
-  padding: 32px;
+  padding: 30px;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
-  border-radius: 10.6px;
+  border-radius: 10px;
   background: var(--other-shade);
   min-height: 250px;
 }
@@ -347,6 +343,7 @@
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
 .skills__section__card__content {
+  /* background-color: lightgoldenrodyellow; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -370,7 +367,7 @@
 
 /* About Us */
 .about__section {
-  /* background-color: lightpink; */
+  background-color: lightcyan;
   display: flex;
   width: 100%;
   height: 70vh;
@@ -662,12 +659,20 @@ select::-ms-expand {
   .about__section-description {
     font-size: 22px;
   } 
+  .skills__section{
+    justify-content: center;
+  }
   .skills__section__heading {
+    justify-content: center;
     font-size: 54px;
     line-height: 70px;
   }
   .skills__section__container {
-    gap: 16px;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
   }
   .skills__section__card {
     gap: 28px;
@@ -692,6 +697,11 @@ select::-ms-expand {
   .hero__section {
     display: flex;
   }
+  .hero__section,
+  .about__section,
+  .skills__section{
+    padding: 0px 0px 15vh 0px;
+  }
   .hero__section__title,
   .hero__section-description,
   .footer__content {
@@ -712,7 +722,7 @@ select::-ms-expand {
     width: 150px;
   }
   .skills__section__container,
-  /* .about__section, */
+  .about__section,
   .portfolio__section__container,
   .portfolio__container-box,
   .footer__link__container,
@@ -791,12 +801,17 @@ select::-ms-expand {
     top: 54px;
     width: 120px;
   }
+  .hero__section,
+  .about__section,
+  .skills__section{
+    padding: 15vh 0px 95vh 0px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
   .section__title,
   .hero__section__title,
-  .skills__section__heading,
+  .skills__section__heading, .heading,
   .sections__heading {
     font-size: 40px;
     line-height: 30px;
@@ -813,6 +828,19 @@ select::-ms-expand {
     top:30px;
     width:80px;
     left: 20%;
+  }
+  .hero__section,
+  .about__section,
+  .skills__section{
+    padding: 0vh 0px 110vh 0px;
+  }
+}
+
+@media only screen and (max-width: 380){
+  .hero__section,
+  .about__section,
+  .skills__section{
+    padding: 0px 0px 50vh 0px;
   }
 }
 
