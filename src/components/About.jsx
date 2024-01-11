@@ -1,9 +1,9 @@
 export default function About() {
   return (
     <section id="About" className="about__section">
-      <div className="about__section__img">
+      {/* <div className="about__section__img">
         <img src="./img/about-me.png" alt="About Me" />
-      </div>
+      </div> */}
       <div className="hero__section__content__box about__section__box">
         <div className="hero__section__content">
           <p className="section__title">About</p>
