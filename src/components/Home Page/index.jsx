@@ -10,7 +10,7 @@ function Home() {
   return (
     <div id="Home">
       <Hero/>
-      {/* <About/> */}
+      <About/>
       {/* <Skills/> */}
       {/* <MyPortfolio/> */}
       {/* <Contact/> */}

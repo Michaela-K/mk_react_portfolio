@@ -8,13 +8,13 @@ export default function About() {
         <div className="hero__section__content">
           <p className="section__title">About</p>
           {/* <h1 className="skills-section__heading">About Me</h1> */}
-          <p className="hero__section-description">
+          <p className="about__section-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             officiis sit debitis omnis harum sed veniam quasi dicta accusamus
             recusandae? Voluptatem, reprehenderit alias? Eligendi aperiam
             tempora numquam sint odit optio.
           </p>
-          <p className="hero__section-description">
+          <p className="about__section-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             officiis sit debitis omnis harum sed veniam quasi dicta accusamus
             recusandae?
