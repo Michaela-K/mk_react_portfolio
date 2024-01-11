@@ -1,13 +1,9 @@
 export default function About() {
   return (
     <section id="About" className="about__section">
-      {/* <div className="about__section__img">
-        <img src="./img/about-me.png" alt="About Me" />
-      </div> */}
       <div className="about__section__content__box">
         <div className="about__section__content">
           <p className="heading">About</p>
-          {/* <h1 className="skills-section__heading">About Me</h1> */}
           <p className="about__section-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
             officiis sit debitis omnis harum sed veniam quasi dicta accusamus

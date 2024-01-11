@@ -79,21 +79,6 @@
     color: var(--primary);
     background-color: var(--white);
   }
-  .btn-github {
-    color: var(--white);
-    background-color: var(--github);
-    border: var(--github);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.95);
-    gap: 16px;
-  }
-  .btn-github:hover {
-    color: var(--github);
-    background-color: var(--white);
-  }
   /* Global CSS Ends */
 
 
@@ -215,13 +200,10 @@
   .navbar__active-content {
     color: var(--primary);
   }
-
   .navbar__img{
-   
-  }
-  .navbar__img > img{
-    width: 50px;
-    height: 50px;
+    font-size: 2.3rem;
+    color: var(--primary);
+    font-weight: 500;
   }
   /* Navbar Styler Ends */
 
@@ -234,7 +216,6 @@
   gap: 32px;
   background-color: var(--bg-shade);
   height: 100vh;
-  background-color: lightcyan;
 }
 .hero__section__content-box {
   display: flex;
@@ -260,7 +241,6 @@
   align-self: stretch;
   padding-left: 5px;
   position: relative;
-  /* z-index: 2; */
 }
 .hero__section__title::before {
   content: "";
@@ -272,7 +252,6 @@
   height: 10px;
   transform: skew(-75deg) translateX(-50%);
   background: rgba(170, 65, 191,0.5);
-  /* z-index: 1; */
 }
 .hero__section__title__color {
   color: var(--primary);
@@ -299,7 +278,6 @@
 
 /* Skills Section Style */
 .skills__section {
-  background-color: lightcyan;
   display: flex;
   justify-content: start;
   padding: 70px 0px;
@@ -307,13 +285,9 @@
   width: 100%;
 }
 .skills__section__container {
-  /* background-color: lightblue; */
-  /* width: 85%; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
-  /* justify-content: center; */
-  /* align-items: flex-start; */
 }
 .skills__section__card {
   display: flex;
@@ -343,7 +317,6 @@
   box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1);
 }
 .skills__section__card__content {
-  /* background-color: lightgoldenrodyellow; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -367,13 +340,11 @@
 
 /* About Us */
 .about__section {
-  background-color: lightcyan;
   display: flex;
   width: 100%;
   height: 70vh;
 }
 .about__section__content__box{
-  /* background-color: lightgrey; */
   width: 85vw;
   display: flex;
   justify-content: start;
@@ -381,26 +352,22 @@
 }
 .about__section__content {
   width: 90%;
-  /* background-color: lightblue; */
   display: flex;
   flex-direction: column;
   gap: 21.333px;
 }
 .about__section-description{
-  /* background-color: lightgoldenrodyellow; */
   color: var(--darkblue);
   margin: 25px 0px 16px 8px;
   font-size: 32px;
   font-weight:400;
   line-height: 60px;
   width: 100%;
-  /* display: flex; */
 }
 /* About Us Ends */
 
 /* My Portfolio Starts */
 .portfolio__section {
-  background-color: lightcyan;
   display: flex;
   padding: 112px 0px;
   flex-direction: column;
@@ -577,15 +544,13 @@ select::-ms-expand {
 
 /* Contact End */
 
-/* Footer Start */
+
 /* Footer Starts */
 .footer__container {
   display: flex;
   padding: 10px 0px 85.333px;
   flex-direction: column;
-  /* align-items: flex-start; */
   background: var(--bg-shade);
-  /* align-items: center; */
   align-self: stretch;
   width: 100%;
 }
@@ -593,7 +558,6 @@ select::-ms-expand {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* align-self: stretch; */
 }
 .footer__items > ul {
   list-style: none;
@@ -624,11 +588,9 @@ select::-ms-expand {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* align-self: stretch; */
 }
 .footer__content {
   color: var(--black);
-  /* font-size: 18.667px; */
   font-weight: 400;
   line-height: 28px;
 }
@@ -646,7 +608,6 @@ select::-ms-expand {
     justify-content: center;
   }
   .hero__section__title {
-    /* font-size: 85px; */
     line-height: 70px;
   }
   .about__section{
