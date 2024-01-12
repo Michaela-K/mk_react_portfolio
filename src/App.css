@@ -38,7 +38,7 @@
   }
 
   .btn {
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     display: inline-block;
     padding: 14px 32px;
     font-size: 16px;
@@ -74,6 +74,7 @@
     background-color: var(--primary);
     border: 1px solid var(--primary);
     margin-left: 11px;
+    /* padding: 0px 20px; */
   }
   .btn-primary:hover {
     color: var(--primary);
@@ -163,8 +164,8 @@
   /* Portfolio, Testimonial & Contact Me */
   .sub__title {
     color: var(--heading-color);
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
     line-height: 24px;
   }
   /* Section Titles Ends */
@@ -426,6 +427,8 @@
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  height: 66vh;
+  max-height: 80vh;
 }
 .portfolio__section__card__content {
   display: flex;
@@ -440,13 +443,31 @@
   font-size: 22px;
   margin-bottom: 12px;
 }
+.tech{
+  /* background-color: lightpink; */
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tech__item{
+  background-color: var(--primary);
+  color: var(--almost-white);
+  padding: 2px 8px;
+  margin: 0px 16px 8px 0px;
+  border-radius: 5px;
+  font-size: 16px;
+}
 .portfolio__link {
-  text-decoration: none;
   display: flex;
   gap: 16px;
   border-bottom: 1.33px solid var(--primary);
   padding-bottom: 10.6px;
   font-weight: 600;
+  text-decoration: none;
+}
+.portfolio__link > a{
+  text-decoration: none;
 }
 .portfolio__section__card:hover path {
   stroke: #006b6a;
@@ -526,7 +547,7 @@
 }
 .contact__input {
   display: flex;
-  font-family: "Josefin Sans";
+  font-family: "Montserrat", sans-serif;
   padding: 16px;
   align-items: center;
   align-self: stretch;
@@ -583,6 +604,7 @@ select::-ms-expand {
 }
 .footer__items ul > li > a {
   text-decoration: none;
+  cursor: pointer;
 }
 .footer__social__icon > ul {
   list-style: none;
@@ -706,7 +728,7 @@ select::-ms-expand {
     justify-content: center;
   }
   .btn-primary{
-    width: 50%;
+    width: 100%;
   }
   .hero__section__title::before {
     top: 65px;
@@ -791,7 +813,7 @@ select::-ms-expand {
   .hero__section,
   .about__section,
   .skills__section{
-    padding: 15vh 0px 95vh 0px;
+    padding: 8vw 0px 300px 0px;
   }
 }
 
@@ -808,9 +830,7 @@ select::-ms-expand {
     font-size: 22px;
     line-height: 0px;
   }
-  .btn-primary{
-    width: 80%;
-  }
+ 
   .hero__section__title::before {
     top:30px;
     width:80px;

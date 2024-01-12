@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section id="Contact" className="contact__section">
       <div>
-        <h2>Contact Me</h2>
+        <h2 className="heading">Contact Me</h2>
         <p className="sub__title">Let's Create Something together !</p>
       </div>
       <form className="contact__form__container">

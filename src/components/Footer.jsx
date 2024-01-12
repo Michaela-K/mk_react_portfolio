@@ -76,7 +76,7 @@ function Footer() {
         </div>
         <div className="footer__social__icon">
           <ul>
-            <li>
+            {/* <li>
               <a
                 href="https://www.facebook.com/"
                 className="navbar__content"
@@ -96,8 +96,8 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 href="https://www.instagram.com/"
                 className="navbar__content"
@@ -119,8 +119,8 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
-            <li>
+            </li> */}
+            {/* <li>
               <a
                 href="https://www.twitter.com/"
                 className="navbar__content"
@@ -140,10 +140,10 @@ function Footer() {
                   />
                 </svg>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/michaelaking20"
                 className="navbar__content"
                 target="_blank"
                 rel="noreferrer"
