@@ -21,6 +21,7 @@ export default function Portfolio() {
               </div>
               <p className="text-sm portfolio__link">
                 {item.link}
+                <a href="http://"></a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"

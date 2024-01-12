@@ -119,7 +119,7 @@
   /* Body 2 */
   .text-md {
     color: var(--darkblue);
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px;
@@ -131,6 +131,10 @@
     font-style: normal;
     font-weight: 400;
     line-height: 21px;
+  }
+  .text-highlight{
+    color: var(--primary);
+    font-weight: 500;
   }
 
 
@@ -216,6 +220,7 @@
   gap: 32px;
   background-color: var(--bg-shade);
   height: 100vh;
+  margin-bottom: 15vh;
 }
 .hero__section__content-box {
   display: flex;
@@ -346,7 +351,8 @@
 .about__section {
   display: flex;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
+  margin-bottom: 20vh;
 }
 .about__section__content__box{
   width: 85vw;
@@ -362,11 +368,12 @@
 }
 .about__section-description{
   color: var(--darkblue);
-  margin: 25px 0px 16px 8px;
-  font-size: 32px;
+  margin: 10px 0px 10px 8px;
+  font-size: 26px;
   font-weight:400;
-  line-height: 60px;
   width: 100%;
+  line-height: 45px;
+  letter-spacing: -1px;
 }
 /* About Us Ends */
 
@@ -430,6 +437,8 @@
 }
 .portfolio__section__title {
   color: var(--heading-color);
+  font-size: 22px;
+  margin-bottom: 12px;
 }
 .portfolio__link {
   text-decoration: none;

@@ -3,30 +3,30 @@
     {
       "id": "1",
       "src": "./assets/icons/fe_icon.png",
-      "title": "Front-End",
+      "title": "Front-End Development",
       "alt":"Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
+      "description": "React , JavaScript , Ruby , Tailwind , SASS , CSS , HTML"
+     },
     {
       "id": "2",
       "src": "./assets/icons/be_icon.png",
-      "title": "Back-End",
+      "title": "Back-End Development",
       "alt":"Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "PostgreSQl , Firebase , Express JS , Node Js , Ajax , JQuery"
     },
     {
       "id": "3",
       "src": "./assets/icons/wp_icon.png",
       "title": "WordPress Development",
       "alt":"WordPress Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Currently learning development in Wordpress"
     },
     {
       "id": "4",
       "src": "./assets/icons/wf_icon.png",
       "title": "Webflow Development",
       "alt":"Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Currently learning development in Webflow"
     }
   ],
   "portfolio": [
