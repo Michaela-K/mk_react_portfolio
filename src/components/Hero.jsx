@@ -8,7 +8,7 @@ function Hero() {
         <div className="hero__section__content">
           <p className="section__title">Michaela King</p>
           <h1 className="hero__section__title">
-          <span className="text-highlight">Web</span> Developer
+          <span className="text-highlight">Software</span> Developer
           </h1>
           <p className="hero__section-description">
             Based in Ontario, Canada

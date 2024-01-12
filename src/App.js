@@ -2,7 +2,6 @@ import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './components/Home Page';
 import Navbar from './components/Navbar';
-import About from './components/About';
 
 function App() {
   return (

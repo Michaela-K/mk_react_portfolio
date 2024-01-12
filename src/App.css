@@ -160,6 +160,8 @@
     line-height: 150px;
     letter-spacing: -5px;
     padding-left: 10px;
+    display: flex;
+    justify-content: start;
   }
   /* Portfolio, Testimonial & Contact Me */
   .sub__title {
@@ -181,6 +183,7 @@
     top: 0;
     left: 0;
     right: 0;
+    z-index: 100;
   }
   .navbar__items > ul {
     list-style: none;
@@ -251,12 +254,12 @@
 .hero__section__title::before {
   content: "";
   position: absolute;
-  left: 16.5%;
+  left: 20%;
   top: 82px;
   bottom: 0px;
-  width: 250px;
-  height: 10px;
-  transform: skew(-75deg) translateX(-50%);
+  width: 350px;
+  height: 12px;
+  transform: skew(-70deg) translateX(-42%);
   background: rgba(170, 65, 191,0.5);
 }
 .hero__section__title__color {
@@ -710,6 +713,9 @@ select::-ms-expand {
 }
 
 @media only screen and (max-width: 1200px) {
+  .heading{
+    justify-content: center;
+  }
   .btn-outline-primary {
     display: none;
   }

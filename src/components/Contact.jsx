@@ -31,7 +31,7 @@ const [emailSent, setEmailSent] = useState(false);
     <section id="Contact" className="contact__section">
       <div>
         <h2 className="heading">Contact Me</h2>
-        <p className="sub__title">Let's Create Something together !</p>
+        <p className="sub__title">Let's Create Something !</p>
       </div>
       {emailSent ? (
         <div className="sub__title success">Email sent successfully! Thank you for reaching out.</div>
