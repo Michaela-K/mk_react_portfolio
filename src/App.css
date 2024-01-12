@@ -154,7 +154,7 @@
   }
   /* Skills & About Me */
   .heading{
-    color: var(--heading-color);
+    color: var(--darkblue);
     font-size: 80px;
     font-weight: 400;
     line-height: 150px;
@@ -427,8 +427,6 @@
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  height: 66vh;
-  max-height: 80vh;
 }
 .portfolio__section__card__content {
   display: flex;
@@ -630,6 +628,14 @@ select::-ms-expand {
   color: var(--black);
   font-weight: 400;
   line-height: 28px;
+}
+.success{
+  margin-top: 50px;
+  color: var(--darkblue);
+  padding: 32px;
+  border-radius: 5px;
+  border: 1px solid rgb(166, 213, 166);
+  background-color: rgb(195, 250, 195);
 }
 
 /* Responsive Screens */
