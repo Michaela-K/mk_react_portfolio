@@ -16,10 +16,10 @@
     },
     {
       "id": "3",
-      "src": "./assets/icons/wp_icon.png",
-      "title": "WordPress Development",
-      "alt":"WordPress Development",
-      "description": "Currently learning development in Wordpress"
+      "src": "./assets/icons/ui_icon2.png",
+      "title": "Web Design / UI Design",
+      "alt":"Web Design",
+      "description": "Currently learning UI Design with Figma"
     },
     {
       "id": "4",
@@ -37,25 +37,25 @@
       "description": "Simplifying task management in a calendar by offering preset categories like Today, Next 7 Days, and All Days. Users can also create custom Projects to further organize their tasks.",
       "tech": ["React", "Firebase", "JavaScript", "CSS", "Moment", "Date-fns", "Material UI" ],
       "link": "View In Github",
-      "href": "https://github.com/Michaela-K/lister"
+      "githubhref": "https://github.com/Michaela-K/lister"
     },
     {
       "id": "2",
       "src": "./assets/images/bookmark_img.jpeg",
       "title": "BookMark",
       "description": "BookMark was developed to provide a visually-oriented solution for managing URL links. Users have the ability to log in, categorize their URLs, and store them within their personal resource catalog for easy access and organization.",
-      "tech": ["Express Js", "Node Js", "JavaScript", "PostgreSQL", "SASS"],
+      "tech": ["PostgreSQL", "Express Js", "Node Js", "JavaScript", "SASS"],
       "link": "View In Github",
-      "href": "https://github.com/Michaela-K/BookMark"
+      "githubhref": "https://github.com/Michaela-K/BookMark"
     },
     {
       "id": "3",
       "src": "./assets/images/bookit_img.jpeg",
       "title": "BookIt",
       "description": "Quickly gain consensus for meetups, whether with family, colleagues, or classmates. Create an event, customize it, distribute invitation links, and conveniently monitor RSVPs.",
-      "tech": ["React", "PostgreSQL", "JavaScript", "Express Js", "Node Js","DayJs", "FullCalendar", "Material UI" ],
+      "tech": ["PostgreSQL", "React","JavaScript", "Express Js", "Node Js","DayJs", "FullCalendar", "Material UI" ],
       "link": "View In Github",
-      "href": "https://github.com/Michaela-K/bookit"
+      "githubhref": "https://github.com/Michaela-K/bookit"
     }
   ],
   "testimonials": [

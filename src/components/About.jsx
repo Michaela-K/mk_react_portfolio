@@ -28,7 +28,7 @@ export default function About() {
             Full Stack Web Development Bootcamp in 2022.
           </p>
           <p className="about__section-description">
-            Since then I continue to practice what Ive learn't and add new
+            Since then I continue to practice what I've learnt and add new
             technologies to my repertoire.
           </p>
         </div>

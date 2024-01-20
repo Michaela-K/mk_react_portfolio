@@ -27,7 +27,7 @@ export default function Portfolio() {
                 ))}
               </div>
               <p className="text-sm portfolio__link">
-                <a href={item.href} target="_blank" rel="noopener noreferrer">
+                <a href={item.githubhref} target="_blank" rel="noopener noreferrer">
                   {item.link}
 
                   <svg
