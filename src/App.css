@@ -109,6 +109,13 @@
   }
 
   /* Pragraphs text large medium small */
+  .text-xl {
+    color: var(--darkblue);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 27px;
+  }
   /* Body 1 */
   .text-lg {
     color: var(--darkblue);
@@ -142,15 +149,21 @@
   /* Section Titles */
   .section__title {
     color: var(--heading-color);
-    font-size: 90px;
+    font-size: 3rem;
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    line-height: 150px;
-    letter-spacing: -5px;
+    line-height: 5rem;
+    /* letter-spacing: -3px; */
     display: flex;
     align-items: flex-start;
     padding-left: 10px;
+  }
+  .section__label {
+    font-size: 2rem;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 15px;
   }
   /* Skills & About Me */
   .heading{
@@ -222,16 +235,30 @@
   justify-content: start;
   align-items: center;
   /* gap: 32px; */
-  background-color: var(--bg-shade);
-  /* background-color: hotpink; */
-  height: 70vh;
-  /* margin-bottom: 15vh; */
+  /* background-color: var(--bg-shade); */
+  height: 80vh;
+  margin-bottom: 15vh;
+  margin-top: 5vh;
 }
-.hero__section__content-box {
+.hero__section__img{
+  height: 35rem;
+  /* background-color: #aa41bf; */
+}
+.hero__section__content-box-left {
+  background-color: lightpink;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px; */
+  width: 50%;
+}
+.hero__section__content-box-right {
+  background-color: lightblue;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 32px;
+  width: 50%;
 }
 .hero__section__content {
   display: flex;
@@ -244,7 +271,7 @@
 }
 .hero__section__title {
   color: var(--heading-color);
-  font-size: 125px;
+  font-size: 5.3rem;
   font-weight: 400;
   line-height: 70px;
   letter-spacing: -2px;
@@ -255,12 +282,12 @@
 .hero__section__title::before {
   content: "";
   position: absolute;
-  left: 20%;
-  top: 82px;
+  left: 42.8%;
+  top: 3.9rem;
   bottom: 0px;
-  width: 350px;
-  height: 12px;
-  transform: skew(-70deg) translateX(-42%);
+  width: 100%;
+  height: 1rem;
+  transform: skew(0deg) translateX(-42%);
   background: rgba(170, 65, 191,0.5);
 }
 .hero__section__title__color {
@@ -270,7 +297,7 @@
   color: var(--darkblue);
   margin: 25px 0px 16px 8px;
   padding-left: 4px;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight:400;
   line-height: 60px;
 }
@@ -463,7 +490,7 @@
 .portfolio__link {
   display: flex;
   gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
+  /* border-bottom: 1.33px solid var(--primary); */
   padding-bottom: 10.6px;
   font-weight: 600;
   text-decoration: none;

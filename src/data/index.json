@@ -1,4 +1,11 @@
 {
+  "hero": [
+    {
+      "id": "1",
+      "src": "./assets/images/laptop.png",
+      "alt":"Laptop line image"
+     }
+  ],
   "skills": [
     {
       "id": "1",
