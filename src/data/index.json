@@ -26,7 +26,9 @@
       "src": "./assets/icons/wf_icon.png",
       "title": "Webflow Development",
       "alt":"Webflow Development",
-      "description": "Currently learning development in Webflow"
+      "description": "",
+      "webflowref":"https://michaelas-webflow-portfolio.webflow.io/",
+      "externalLink": "Click to see my Webflow Portfolio"
     }
   ],
   "portfolio": [

@@ -221,10 +221,11 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  gap: 32px;
+  /* gap: 32px; */
   background-color: var(--bg-shade);
-  height: 100vh;
-  margin-bottom: 15vh;
+  /* background-color: hotpink; */
+  height: 70vh;
+  /* margin-bottom: 15vh; */
 }
 .hero__section__content-box {
   display: flex;
