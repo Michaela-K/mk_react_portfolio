@@ -11,10 +11,10 @@ function Home() {
     <div id="Home">
       <Hero/>
       {/* <About/> */}
-      <Skills/>
-      <MyPortfolio/>
-      <Contact/>
-      <Footer/>
+      {/* <Skills/> */}
+      {/* <MyPortfolio/> */}
+      {/* <Contact/> */}
+      {/* <Footer/> */}
     </div>
   )
 }

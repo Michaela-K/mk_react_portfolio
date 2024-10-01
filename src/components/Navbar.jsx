@@ -45,7 +45,7 @@ function Navbar() {
       </a>
       <div className={`navbar__items ${navActive ? "active" : ""}`}>
         <ul>
-          <li>
+          {/* <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar__active-content"
@@ -58,7 +58,7 @@ function Navbar() {
             >
               Home
             </Link>
-          </li>
+          </li> */}
           <li>
           <Link
               onClick={closeMenu}
