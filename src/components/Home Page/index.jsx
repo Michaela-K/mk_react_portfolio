@@ -11,7 +11,7 @@ function Home() {
     <div id="Home">
       <Hero/>
       {/* <About/> */}
-      {/* <Skills/> */}
+      <Skills/>
       {/* <MyPortfolio/> */}
       {/* <Contact/> */}
       {/* <Footer/> */}

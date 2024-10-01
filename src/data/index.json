@@ -12,14 +12,14 @@
       "src": "./assets/icons/fe_icon.png",
       "title": "Front-End Development",
       "alt":"Front-End",
-      "description": "React , JavaScript , Ruby , Tailwind , SASS , CSS , HTML"
+      "description": "React, JavaScript, Ruby, Tailwind, SASS, CSS, HTML"
      },
     {
       "id": "2",
       "src": "./assets/icons/be_icon.png",
       "title": "Back-End Development",
       "alt":"Back-End",
-      "description": "PostgreSQl , Firebase , Express JS , Node Js , Ajax , JQuery"
+      "description": "PostgreSQl, Firebase, Express JS, Node Js, Ajax, JQuery"
     },
     {
       "id": "3",
