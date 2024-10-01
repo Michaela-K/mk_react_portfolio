@@ -652,7 +652,7 @@
 
 
   /* Footer Starts */
-  /* .footer__container {
+  .footer__container {
   display: flex;
   padding: 10px 0px 85.333px;
   flex-direction: column;
@@ -673,6 +673,8 @@
   text-decoration: none;
 }
 .footer__items ul > li > a {
+  font-size: 1.4rem;
+  font-weight: 500;
   text-decoration: none;
   cursor: pointer;
 }
@@ -696,7 +698,8 @@
   justify-content: space-between;
   align-items: center;
 }
-.footer__content {
+p.footer__content {
+  font-size: 2.2rem;
   color: var(--black);
   font-weight: 400;
   line-height: 28px;
@@ -708,7 +711,7 @@
   border-radius: 5px;
   border: 1px solid rgb(166, 213, 166);
   background-color: rgb(195, 250, 195);
-} */
+}
 
 
 
@@ -771,7 +774,7 @@
           grid-template-columns: repeat(2, 1fr);
         }
     
-        /* .footer__container {
+        .footer__container {
           justify-content: center;
           align-items: center;
         }
@@ -782,17 +785,14 @@
           width: 75%;
           justify-content: space-between;
           padding: 0;
-        } */
+        }
   }
 
   @media only screen and (max-width: 1400px) {
     .skills__section__container,
     .about__section,
     .portfolio__section__container,
-    .portfolio__container-box,
-    .footer__link__container,
-    .footer__items>ul,
-    .footer__content__container {
+    .portfolio__container-box{
       display: grid;
       flex-direction: column;
       justify-content: center;
@@ -847,43 +847,12 @@
       width: 100%;
     }
 
-.about__section,
-/* .portfolio__section__container,
-.portfolio__container-box, */
-.footer__link__container,
-.footer__items>ul,
-.footer__content__container {
+.about__section{
   display: flex;
   flex-direction: column;
 }
-    .skills__section,
-    .portfolio__container,
-    .hero__section__content,
-    .hero__section__content__box {
-      /* align-items: center; */
-    }
-
-    /* .portfolio__container-box {
-    gap: 30px;
-    } */
-    /* .skills__section,
-    .testimonial__section,
-    .contact__section,
-    .footer__container {
-      gap: 20px;
-      padding-top: 70px;
-      padding-bottom: 70px;
-      } */
-
     /* .testimonial__section__card {
     padding: 25px;
-  } */
-
-    /* .section__title,
-  .skills__section__heading,
-  .sections__heading {
-    font-size: 3rem;
-    line-height: 75px;
   } */
     .hero__section__content__box {
       gap: 10px;
@@ -896,7 +865,7 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-  }
+  } */
   .footer__social__icon > ul,
   .footer__items > ul {
     padding: 0;
@@ -904,7 +873,7 @@
   }
   .divider {
     margin: 20px;
-  } */
+  }
   }
 
   @media only screen and (max-width: 1150px) {
@@ -913,6 +882,19 @@
       width: 50%;
       grid-template-columns: repeat(1, 1fr);
     }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .footer__link__container,
+    .footer__items>ul,
+    .footer__content__container {
+      /* background-color: hotpink; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   
   }
 
   @media only screen and (max-width: 900px) {
@@ -927,22 +909,9 @@
       max-height: 20rem;
     }
 
-    /* .section__title,
-  .hero__section__title,
-  .skills__section__heading,
-  .sections__heading {
-    font-size: 65px;
-    line-height: 60px;
-    margin-top: 5vh;
-  } */
-    /* .hero__section-description{
-    font-size: 25px;
-    line-height: 5px;
-  } */
-    /* .hero__section__title::before {
-    top: 54px;
-    width: 120px;
-  } */
+    .divider {
+      width: 50%;
+    }
   }
 
   @media only screen and (max-width: 750px) {
@@ -984,6 +953,9 @@
     p.section__label {
       font-size: 2.2rem;
     }
+    .divider {
+      width: 40%;
+    }
   }
 
   @media only screen and (max-width: 500px) {
@@ -1016,6 +988,9 @@
     }
     .portfolio__section__container,
     .portfolio__container-box{
+      width: 25%;
+    }
+    .divider {
       width: 25%;
     }
   }

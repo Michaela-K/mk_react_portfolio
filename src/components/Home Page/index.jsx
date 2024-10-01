@@ -9,12 +9,12 @@ import About from '../About'
 function Home() {
   return (
     <div id="Home">
-      <Hero/>
-      {/* <About/> */}
-      <Skills/>
+      {/* <Hero/> */}
+      <About/>
+      {/* <Skills/>
       <MyPortfolio/>
-      <Contact/>
-      {/* <Footer/> */}
+      <Contact/> */}
+      <Footer/>
     </div>
   )
 }
