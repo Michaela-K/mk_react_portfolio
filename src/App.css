@@ -321,20 +321,10 @@
   .hero__section-description {
     color: var(--darkblue);
     margin: 25px 0px 16px 8px;
-    /* padding-left: 4px; */
     font-size: 2rem;
     font-weight: 400;
     line-height: 60px;
   }
-
-  /* .hero__section__img {
-  display: flex;
-  justify-content: center;
-}
-.hero__section__img > img {
-  width: 80%;
-  height: 100%;
-} */
   /* Hero Section Style Ends */
 
 
@@ -463,8 +453,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* gap: 80px; */
-  /* width:100%; */
 }
 .portfolio__container-box {
   display: flex;
@@ -597,7 +585,9 @@
   line-height: 150%;
 } */
   /* Testimonial Ends */
-  /* .contact__section {
+
+
+  .contact__section {
   display: flex;
   padding: 150px 70px;
   flex-direction: column;
@@ -634,7 +624,7 @@
   border-radius: 8px;
   border: 1.333px solid var(--primary);
   background: var(--white);
-} */
+}
   select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -646,8 +636,8 @@
     /* Better placement regardless of input width */
   }
 
-  /*For IE*/
-  /* select::-ms-expand {
+  /* For IE*/
+  select::-ms-expand {
   display: none;
 }
 .checkbox__label {
@@ -657,8 +647,7 @@
   gap: 10.6px;
   flex: 1 0 0;
   justify-content: flex-start;
-} */
-
+}
   /* Contact End */
 
 
