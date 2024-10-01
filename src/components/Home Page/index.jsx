@@ -12,7 +12,7 @@ function Home() {
       <Hero/>
       {/* <About/> */}
       <Skills/>
-      {/* <MyPortfolio/> */}
+      <MyPortfolio/>
       {/* <Contact/> */}
       {/* <Footer/> */}
     </div>

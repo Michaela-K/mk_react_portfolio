@@ -14,8 +14,8 @@ export default function Portfolio() {
             <div className="portfolio__section__img">
               <img src={item.src} alt="Placeholder" />
             </div>
-            <div className="portfolio__section__card__content">
-              <div>
+            <div className="portfolio__section__card__content-outer">
+              <div className="portfolio__section__card__content-inner">
                 <h3 className="portfolio__section__title">{item.title}</h3>
                 <p className="text-md">{item.description}</p>
               </div>
