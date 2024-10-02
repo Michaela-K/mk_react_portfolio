@@ -10,10 +10,10 @@ function Home() {
   return (
     <div id="Home">
       {/* <Hero/> */}
-      <About/>
-      {/* <Skills/>
+      {/* <About/> */}
+      {/* <Skills/> */}
       <MyPortfolio/>
-      <Contact/> */}
+      <Contact/>
       <Footer/>
     </div>
   )
