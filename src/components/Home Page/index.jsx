@@ -9,9 +9,9 @@ import About from '../About'
 function Home() {
   return (
     <div id="Home">
-      {/* <Hero/> */}
+      <Hero/>
       {/* <About/> */}
-      {/* <Skills/> */}
+      <Skills/>
       <MyPortfolio/>
       <Contact/>
       <Footer/>
