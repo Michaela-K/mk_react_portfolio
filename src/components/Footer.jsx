@@ -21,32 +21,6 @@ function Footer() {
               </Link>
             </li>
             <li>
-              <Link
-                activeClass="navbar__active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="Portfolio"
-                className="text-md"
-              >
-                Portfolio
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar__active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="About"
-                className="text-md"
-              >
-                About Me
-              </Link>
-            </li>
-            <li>
             <Link
               activeClass="navbar__active-content"
               spy={true}
@@ -59,6 +33,32 @@ function Footer() {
               Skills
             </Link>
             </li>
+            <li>
+              <Link
+                activeClass="navbar__active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Portfolio"
+                className="text-md"
+              >
+                Portfolio
+              </Link>
+            </li>
+            {/* <li>
+              <Link
+                activeClass="navbar__active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="About"
+                className="text-md"
+              >
+                About Me
+              </Link>
+            </li> */}
             <li>
               <Link
                 activeClass="navbar__active-content"
@@ -169,8 +169,8 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer__content__container">
-        <p className="footer__content">Michaela King</p>
-        <div className="footer__social__icon">
+        <p className="footer__content">Copyright © Michaela King</p>
+        {/* <div className="footer__social__icon">
           <ul>
             <li>
               <Link
@@ -212,7 +212,7 @@ function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

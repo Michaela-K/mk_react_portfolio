@@ -45,7 +45,7 @@ function Navbar() {
       </a>
       <div className={`navbar__items ${navActive ? "active" : ""}`}>
         <ul>
-          {/* <li>
+          <li>
             <Link
               onClick={closeMenu}
               activeClass="navbar__active-content"
@@ -58,8 +58,8 @@ function Navbar() {
             >
               Home
             </Link>
-          </li> */}
-          <li>
+          </li>
+          {/* <li>
           <Link
               onClick={closeMenu}
               activeClass="navbar__active-content"
@@ -72,7 +72,7 @@ function Navbar() {
             >
               About
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               onClick={closeMenu}
@@ -99,6 +99,20 @@ function Navbar() {
               className="navbar__content"
             >
               Portfolio
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={closeMenu}
+              activeClass="navbar__active-content"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              to="Contact"
+              className="navbar__content"
+            >
+              Contact
             </Link>
           </li>
         </ul>
