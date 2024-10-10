@@ -480,7 +480,7 @@
   object-fit: cover;
   border-radius: 12px;
   width: 90%;
-  margin: 1rem 0rem;
+  margin: 1.5rem 0rem 1rem 0rem;
   min-height: 300px;
   max-height: 300px;
   transition: transform .4s;
