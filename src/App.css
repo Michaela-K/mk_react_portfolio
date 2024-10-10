@@ -257,6 +257,7 @@
     align-items: center;
     gap: 32px;
     background-color: var(--bg-shade);
+    margin-top: 150px;
     height: 80vh;
   }
 
@@ -1061,7 +1062,6 @@ p.footer__content {
 
   @media screen and (max-width: 1200px) {
   .navbar{
-    height: 5vh;
     display: flex;
     align-items: center;
   }
